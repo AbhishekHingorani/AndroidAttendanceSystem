@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/capture"
+        android:label="@string/app_name"
+        android:theme="@style/MyCustomTheme">
+        
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".MarkAttendance"
+            android:label="@string/title_activity_mark_attendance" >
+        </activity>
+        <activity
+            android:name=".AddNewStudent"
+            android:label="@string/title_activity_add_new_student" >
+        </activity>
+        <activity
+            android:name=".AddNewBatch"
+            android:label="@string/title_activity_add_new_batch" >
+        </activity>
+        <activity
+            android:name=".SelectDetails"
+            android:label="@string/title_activity_select_details" >
+        </activity>
+        <activity
+            android:name=".ViewAttendance"
+            android:label="@string/title_activity_view_attendance" >
+        </activity>
+        <activity
+            android:name=".SubjectWiseAttendance"
+            android:label="@string/title_activity_subject_wise_attendance" >
+        </activity>
+        <activity
+            android:name=".DeleteStudent"
+            android:label="@string/title_activity_delete_student" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

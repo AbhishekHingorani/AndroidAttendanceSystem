@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCustomTheme" parent="@style/AppTheme">
+   <item name="android:textColorPrimary">@color/darkbrown</item>
+   <item name="android:windowBackground">@color/lightbrown</item>
+   <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/darkbrown</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+    </style>
+    
+    <style name="TitleBarTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    	<item name="android:textColor">@color/lightbrown</item>
+	</style>
+	
+</resources>
